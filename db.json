@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "email": "diego@angis.com.br",
+      "nomeCompleto": "Diego Carlos",
+      "nomeUsuario": "@diego_cds",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "email": "amanda@angis.com.br",
+      "nomeCompleto": "Amanda Marcelina da Silva",
+      "nomeUsuario": "@amanda_ms",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "email": "rafael@signa.com.br",
+      "nomeCompleto": "Rafael Augusto",
+      "nomeUsuario": "@rafael_ag",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "email": "tiago@angis.com.br",
+      "nomeCompleto": "Vanderson Tiago",
+      "nomeUsuario": "@tiago_va",
+      "password": "123",
+      "id": 4
+    }
+  ]
+}
