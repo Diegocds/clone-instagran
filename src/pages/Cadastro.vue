@@ -95,7 +95,7 @@
         </p>
       </div>
       <p class="card__section__aplication">Obtenha o aplicativo.</p>
-      <div class="section__app">
+      <div class="card__section__app">
         <a
           href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&amp;ct=igweb.loginPage.badge&amp;mt=8&amp;vt=lo"
         >

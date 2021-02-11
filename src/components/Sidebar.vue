@@ -120,7 +120,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    width: 100%;
+    width: 72%;
 
     strong {
       font-size: 14px;

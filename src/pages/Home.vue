@@ -18,7 +18,7 @@
         />
 
         <v-form @submit="submit" class="section__instagram__form">
-          <v-col cols="12" sm="10" class=" pb-1 pr-1 ">
+          <v-col cols="12" class=" pb-1 ">
             <v-text-field
               v-model="email"
               label="E-mail"
@@ -29,7 +29,7 @@
             ></v-text-field>
           </v-col>
 
-          <v-col cols="12" sm="10" class=" pt-1 ">
+          <v-col cols="12" class=" pt-1 ">
             <v-text-field
               v-model="password"
               label="Senha"
@@ -158,7 +158,7 @@ export default {
       }
       &__button {
         width: 265px;
-        height: 36px;
+        height: 20px;
       }
     }
 
