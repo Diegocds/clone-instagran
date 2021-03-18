@@ -29,11 +29,25 @@
       "id": 4
     },
     {
-      "email": "teste@teste.com",
-      "nomeCompleto": "teste da silva",
-      "nomeUsuario": "teste",
+      "email": "diegocds1990@gmail.com",
+      "nomeCompleto": "Diego Carlos da Silva",
+      "nomeUsuario": "Dick",
       "password": "123",
-      "id": 5
+      "id": 6
+    },
+    {
+      "email": "margarete@albano.com.br",
+      "nomeCompleto": "Margarete Aparecida Albano",
+      "nomeUsuario": "Maga",
+      "password": "1010",
+      "id": 7
+    },
+    {
+      "email": "davo2davi.com.br",
+      "nomeCompleto": "davi",
+      "nomeUsuario": "davi",
+      "password": "123",
+      "id": 8
     }
   ]
 }

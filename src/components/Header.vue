@@ -8,13 +8,7 @@
         />
       </div>
       <v-spacer />
-      <!-- <v-text-field
-        flat
-        solo
-        label="Pesquisar"
-        prepend-inner-icon="search"
-        class="pt-6 mb-0  text-center header__itens__search"
-      ></v-text-field> -->
+
       <v-text-field
         class=" header__itens__search"
         v-model="search"
@@ -39,8 +33,8 @@
           <v-icon size="22">explore</v-icon>
         </v-btn>
 
-        <v-btn icon>
-          <v-icon size="22">mdi-checkbox</v-icon>
+        <v-btn @click="dialog" icon>
+          <v-icon size="22">add_circle_outline</v-icon>
         </v-btn>
 
         <router-link to="/"
@@ -55,6 +49,16 @@
     </div>
   </v-app-bar>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      dialog: Boolean,
+    };
+  },
+};
+</script>
 
 <style lang="scss" scoped>
 .header {
@@ -77,18 +81,3 @@
   }
 }
 </style>
-
-<script>
-// export default {
-//   .
-//   .
-//   .
-//   .
-//   .
-//   .
-//   .
-//   .
-//   .
-// }
-//
-</script>

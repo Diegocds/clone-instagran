@@ -18,7 +18,7 @@
         />
 
         <v-form @submit="submit" class="section__instagram__form">
-          <v-col cols="12" class=" pb-1 ">
+          <v-col cols="10" class=" pb-1 ">
             <v-text-field
               v-model="email"
               label="E-mail"
@@ -29,7 +29,7 @@
             ></v-text-field>
           </v-col>
 
-          <v-col cols="12" class=" pt-1 ">
+          <v-col cols="10" class=" pt-1 ">
             <v-text-field
               v-model="password"
               label="Senha"
@@ -113,6 +113,8 @@ export default {
       });
       if (data.length === 0) {
         alert("Usuário ou senha incorretos");
+        this.email = "";
+        this.password = "";
       } else {
         this.$router.push({ name: "timeline" });
       }

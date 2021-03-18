@@ -7,8 +7,8 @@
       /></v-avatar>
 
       <div class="sidebar__avatar__text">
-        <strong>daenerys_dragons</strong>
-        <span>Rainha Daenerys</span>
+        <strong>diegocarlos2534</strong>
+        <span>Diego carlos</span>
       </div>
     </div>
     <div class="sidebar__subtitulos">
@@ -119,7 +119,7 @@
   &__subtitulos {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin: 20px 0 0 0;
     width: 72%;
 
     strong {
