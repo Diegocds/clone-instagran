@@ -8,17 +8,17 @@
         />
       </div>
       <v-spacer />
-
       <v-text-field
         class=" header__itens__search"
         v-model="search"
         prepend-inner-icon="search"
         label="Pesquisar"
         clear-icon="mdi-close"
+        hide-details
+        dense
         flat
         solo
-      ></v-text-field>
-
+      />
       <v-spacer />
       <div class="header__itens__icons">
         <v-btn icon>
@@ -73,11 +73,14 @@ export default {
     &__search {
       border: 1px solid rgba(25, 25, 25, 0.32);
       padding: 0;
-      height: 55px;
-      max-width: 350px;
+      max-width: 250px;
+      margin: 0 auto;
     }
     &__icons {
     }
   }
+}
+.v-input__slot {
+  min-height: auto !important;
 }
 </style>

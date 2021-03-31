@@ -51,41 +51,41 @@ export default {
       {
         img:
           "https://s2.glbimg.com/-Zq2oIZYXHKFRGGrSUtF7v4--A4=/695x0/s.glbimg.com/po/tt2/f/original/2015/11/16/jon-snow.jpg",
-        name: "Diego",
+        name: "jon snow",
       },
       {
         img:
           "https://rollingstone.uol.com.br/media/_versions/sophie-turnet-got-reprod_widelg.jpg",
-        name: "Diego",
+        name: "sansa ",
       },
       {
         img:
           "https://p2.trrsf.com/image/fget/cf/460/0/images.terra.com/2013/03/31/got-s3-arya-wallpaper-1600.jpg",
-        name: "Diego",
+        name: "arya ",
       },
       {
         img:
           "https://mundoconectado.com.br/thumbs/chamadas/got-season-6jpg.jpg",
-        name: "Diego",
+        name: "tyron ",
       },
       {
         img:
           "https://pm1.narvii.com/6346/1f4730cad720c2214001d281f8777752c1b44283_hq.jpg",
-        name: "Diego",
+        name: "eddard",
       },
       {
         img: "https://br.jetss.com/wp-content/uploads/2019/04/Theon.jpg",
-        name: "Diego",
+        name: "theon",
       },
       {
         img:
           "https://jpimg.com.br/uploads/2019/05/6-helen-sloan-hbo-1-1024x682.jpg",
-        name: "Diego",
+        name: "bran",
       },
       {
         img:
           "https://jpimg.com.br/uploads/2019/05/6-helen-sloan-hbo-1-1024x682.jpg",
-        name: "Diego",
+        name: "joffrey",
       },
     ],
   }),
